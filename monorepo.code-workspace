@@ -1,6 +1,34 @@
 {
   "folders": [
     {
+      "name": "manager/product/print/form-design",
+      "path": "apps/manager/product/print/form-design"
+    },
+    {
+      "name": "manager/product/print/app",
+      "path": "apps/manager/product/print/app"
+    },
+    {
+      "name": "manager/product/print",
+      "path": "apps/manager/product/print/"
+    },
+    {
+      "name": "manager/product/app",
+      "path": "apps/manager/product/app/"
+    },
+    {
+      "name": "manager/admin",
+      "path": "apps/manager/admin/"
+    },
+    {
+      "name": "manager/app",
+      "path": "apps/manager/app/"
+    },
+    {
+      "name": "manager",
+      "path": "apps/manager/"
+    },
+    {
       "name": "monorepo",
       "path": "."
     }
@@ -28,7 +56,10 @@
       "**/bower_components": true
     },
     //
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+      80,
+      120
+    ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
