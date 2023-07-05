@@ -1,10 +1,7 @@
-import { Helmet } from '@modern-js/runtime/head';
-import './index.css';
-
 const Index = () => (
-  <div className="container-box">
-    product
-  </div>
+    <div>
+        <div>[product] /routers/page.tsx</div>
+    </div>
 );
 
 export default Index;

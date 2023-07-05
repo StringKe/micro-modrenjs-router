@@ -1,7 +1,4 @@
-import {useModuleApps} from "@modern-js/plugin-garfish/runtime";
-
 export default function () {
-    const {Product} = useModuleApps()
-
-    return <Product/>
+    // 什么都不做交给 layout 处理
+    return null;
 }

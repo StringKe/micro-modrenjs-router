@@ -8,20 +8,8 @@ export default defineConfig({
     masterApp: {
       apps: [
         {
-          name: 'Admin',
-          entry: 'http://localhost:8081',
-        },
-        {
           name: 'Product',
           entry: 'http://localhost:8082',
-        },
-        {
-          name: 'PrintProduct',
-          entry: 'http://localhost:8083',
-        },
-        {
-          name: 'PrintProductFormDesign',
-          entry: 'http://localhost:8084',
         },
       ],
     },
